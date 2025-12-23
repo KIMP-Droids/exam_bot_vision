@@ -7,6 +7,12 @@ The goal of this phase is to validate **multi-camera processing, threading stabi
 
 ---
 
+## Demo
+
+![Dual Camera Object Tracking Demo](assets/demo.gif)
+
+---
+
 ## Current Features
 
 ### Implemented
@@ -57,5 +63,3 @@ The goal of this phase is to validate **multi-camera processing, threading stabi
 ### Why Threads?
 - Allows real-time parallel processing of multiple camera feeds
 - Scales naturally to additional cameras in future iterations
-
----
