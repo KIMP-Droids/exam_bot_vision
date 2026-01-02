@@ -17,6 +17,10 @@ The goal of this phase is to validate **multi-camera processing, threading stabi
 
 ![Dual Camera Recognition Demo](assets/demo2.gif)
 
+Method to use Demo
+ - Add faces with name
+ - Run data_update.py to save encodings (currently in json later in db)
+ - Run recognition.py to test recognition feature (only works with dual cam , port should be updated in code)
 ---
 
 ## Current Features
