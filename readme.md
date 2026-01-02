@@ -7,9 +7,15 @@ The goal of this phase is to validate **multi-camera processing, threading stabi
 
 ---
 
-## Demo
+## Demo for Tracking
 
 ![Dual Camera Object Tracking Demo](assets/demo.gif)
+
+---
+
+## Demo for Recognition in Dual Camera Feed
+
+![Dual Camera Recognition Demo](assets/demo2.gif)
 
 ---
 
@@ -27,12 +33,12 @@ The goal of this phase is to validate **multi-camera processing, threading stabi
   - Shared resources protected using locks
 - Real-time visualization
   - Running the script shows tracking output for both cameras
+- Real time Face Recognition
 
 ---
 
 ### Not Implemented Yet
-- Face recognition
-- Attendance marking
+- Attendance marking with Database
 - ROS2 integration
 - Database or persistent storage
 - Cross-camera identity association
